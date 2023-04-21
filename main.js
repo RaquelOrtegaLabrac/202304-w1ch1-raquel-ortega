@@ -61,6 +61,7 @@ startGameButton.addEventListener("click", () => {
   turn = 1;
   playerTurnContainer.classList.remove("show-off");
   playerTurnText.innerHTML = 'Player 1';
+  startGame();
 });
 
 restartButton.addEventListener("click", () => {
@@ -101,3 +102,8 @@ const clickSixthButton = (event) => {
     }); 
   };
  sixthButton.addEventListener("click", clickSixthButton);
+
+ const startGame = () => {
+
+ };
+ startGame();
