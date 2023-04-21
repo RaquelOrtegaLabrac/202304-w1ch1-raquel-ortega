@@ -101,7 +101,7 @@ const clickSixthButton = (event) => {
     changePlayerTurn(currentPlayerTurn);
     }); 
   };
- sixthButton.addEventListener("click", clickSixthButton);
+sixthButton.addEventListener("click", clickSixthButton);
 
  const startGame = () => {
 
